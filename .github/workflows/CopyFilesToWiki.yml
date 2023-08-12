@@ -13,7 +13,7 @@ jobs:
       env:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
-        source_folder: 'docs'
+        source_folder: 'Docs'
         destination_repo: 'RootCNC/Wiki'
         destination_branch: 'main'
         destination_folder: 'Root-2'
