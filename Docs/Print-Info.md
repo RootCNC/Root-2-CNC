@@ -1,9 +1,9 @@
 ---
-title: Root 4 Lite Print Orientation
-description: How to print the parts for the Root 4 Lite
+title: Root 2 Print Orientation
+description: How to print the parts for the Root 2
 published: true
 date: 2022-06-28T22:24:57.245Z
-tags: root 4 lite, how to print
+tags: root 2, how to print
 editor: markdown
 dateCreated: 2022-06-28T22:17:17.168Z
 ---
@@ -17,92 +17,43 @@ Infill: 50-60%
 - Strength is key! use the hardest settings possible
 - Print with 3-4 perimeters
 - Print with ABS, PETG PLA will be fine though your mileage may vary (I am worried about the low glass transistion point of PLA being too low for the motors)
-
-# DustShoe_Bottom.STL
-
-<img src="https://raw.githubusercontent.com/RootCNC/Root_4_Lite/main/Media/docs/Print-Info/dustshoe_bottom.png" width="600">
-
-# DustShoe_Rail_Right.STL
-
-> For the left side - Please mirror in your slicer
-{.is-info}
-
-<img src="https://raw.githubusercontent.com/RootCNC/Root_4_Lite/main/Media/docs/Print-Info/dustshoe_rail_right.png" width="600">
-
-# X_Aixs_DragChainMount.STL.
-<img src="https://raw.githubusercontent.com/RootCNC/Root_4_Lite/main/Media/docs/Print-Info/x_aixs_dragchainmount.png" width="600">
-
-# X_Axis_BearingIdler.STL
-<img src="https://raw.githubusercontent.com/RootCNC/Root_4_Lite/main/Media/docs/Print-Info/x_axis_bearingidler.png" width="600">
-
-# X_Axis_BoxMount.STL
-<img src="https://raw.githubusercontent.com/RootCNC/Root_4_Lite/main/Media/docs/Print-Info/x_axis_boxmount.png" width="600">
-
-# X_Axis_MotorMount.STL
-
-> Needs supports, print with hex nut end down
-
-<img src="https://raw.githubusercontent.com/RootCNC/Root_4_Lite/main/Media/docs/Print-Info/x_axis_motormount.png" width="600">
-
-# X_Y_Axis_Carriage.STL
-<img src="https://raw.githubusercontent.com/RootCNC/Root_4_Lite/main/Media/docs/Print-Info/x_y_axis_carriage.png" width="600">
-
-# Y_Aixs_DragChainMount.STL
-<img src="https://raw.githubusercontent.com/RootCNC/Root_4_Lite/main/Media/docs/Print-Info/y_aixs_dragchainmount.png" width="600">
-
-# Y_Axis_BoxMount.STL
-<img src="https://raw.githubusercontent.com/RootCNC/Root_4_Lite/main/Media/docs/Print-Info/y_axis_boxmount.png" width="600">
-
-This piece needs some support, you can paint it like this (you need it only for the leg, everything else prints just fine without support):
-
-<img src="https://raw.githubusercontent.com/RootCNC/Root_4_Lite/main/Media/docs/Print-Info/y_axis_boxmount-painted_support.png" width="600">
-
-Here's how the support will look like. It will be easy to remove and it's on internal faces, so it will not be visible once mounted.
-
-<img src="https://raw.githubusercontent.com/RootCNC/Root_4_Lite/main/Media/docs/Print-Info/y_axis_boxmount-rendered_support.png" width="600">
-
-# Y_Axis_Foot.STL
-<img src="https://raw.githubusercontent.com/RootCNC/Root_4_Lite/main/Media/docs/Print-Info/y_axis_foot.png" width="600">
-
-# Y_Axis_Idler.STL
-<img src="https://raw.githubusercontent.com/RootCNC/Root_4_Lite/main/Media/docs/Print-Info/y_axis_idler.png" width="600">
-
-This piece needs a little support, you can paint it like this:
-
-<img src="https://raw.githubusercontent.com/RootCNC/Root_4_Lite/main/Media/docs/Print-Info/y_axis_idler-painted_support.png" width="600">
-
-Here's how the support will look like. It will be easy to remove and it's on a down facing spot, so it will not be visible once mounted.
-
-<img src="https://raw.githubusercontent.com/RootCNC/Root_4_Lite/main/Media/docs/Print-Info/y_axis_idler-rendered_support.png" width="600">
-
-# Y_Axis_Motor_FK10_BearingMount.STL
-<img src="https://raw.githubusercontent.com/RootCNC/Root_4_Lite/main/Media/docs/Print-Info/y_axis_motor_fk10_bearingmount.png" width="600">
-
-This part needs some support for both the long bridges and the hex bolt point. I (Valerioa) forgot to add support on the hex bolt overhang and got a big blob (the part will be probably usable, but a bit support should result in a better print)
-
-<img src="https://raw.githubusercontent.com/RootCNC/Root_4_Lite/main/Media/docs/Print-Info/y_axis_motor_fk10_bearingmount-painted_support.png" width="600">
-
-<img src="https://raw.githubusercontent.com/RootCNC/Root_4_Lite/main/Media/docs/Print-Info/y_axis_motor_fk10_bearingmount-rendered_support.png" width="600">
-
-# Z_Axis_Carriage_65mm.STL
-<img src="https://raw.githubusercontent.com/RootCNC/Root_4_Lite/main/Media/docs/Print-Info/z_axis_carriage_65mm.png" width="600">
-
-This is probably one of the biggest, heaviest and longest prints for this project, so you definitely want to get it right on the first print.
-You'll need support for the entire bottom face of the ballscrew bolt mount. To preserve your sanity, add the support only on the bottom face, without going into the bolt's holes. Going into the bolt's holes is not necessary and the support will be a pain to remove, with the risk of damaging the hole's shape.
-Here's quoted a post from RobF from the discord channel talking about this piece:
-"The bottom face and holes on my primitive printer were a bit "grotty", but it doesn't matter as you only need to be able to get your hex nuts into those 6 holes and the bolts above will pull them up into the recess and crush any little bits of support you missed.  Its all facing down and hidden at the back of the carriage so no-one will see it. I was initially a bit concerned how structurally sound it would all come out, but the Z axis assembly and strong bolts ensures its all rock solid in the end."
-
-<img src="https://raw.githubusercontent.com/RootCNC/Root_4_Lite/main/Media/docs/Print-Info/z_axis_carriage_65mm-painted_support.png" width="600">
-
-Here's how it will look like. Small supports can be added to support the bridging on the sides. They should print fine without supports if your printer is well tuned for bridging, but on a 10+ hours print it's marginal in terms of both print time and wasted material, so better safe than sorry.
-
-<img src="https://raw.githubusercontent.com/RootCNC/Root_4_Lite/main/Media/docs/Print-Info/z_axis_carriage_65mm-rendered_support.png" width="600">
-
-# Z_Axis_LinearRailMount.STL
-<img src="https://raw.githubusercontent.com/RootCNC/Root_4_Lite/main/Media/docs/Print-Info/z_axis_linearrailmount.png" width="600">
-
-# Z_Axis_MotorMount.STL
-<img src="https://raw.githubusercontent.com/RootCNC/Root_4_Lite/main/Media/docs/Print-Info/z_axis_motormount.png" width="600">
-
-# Z_Y_Axis_BallscrewSpacer.STL
-<img src="https://raw.githubusercontent.com/RootCNC/Root_4_Lite/main/Media/docs/Print-Info/z_y_axis_ballscrewspacer.png" width="600">
+# Base and Y axis assm- Foot
+<img src="https://raw.githubusercontent.com/RootCNC/Root-2-CNC/master/Media/Docs/Print-Info/Root%202%20CNC%20-%20Base%20and%20Y%20axis%20assm-%20Foot.png" width="600">
+# Base and Y axis assm-1 Y-Axis Bar Mount Idler
+<img src="https://raw.githubusercontent.com/RootCNC/Root-2-CNC/master/Media/Docs/Print-Info/Root%202%20CNC%20-%20Base%20and%20Y%20axis%20assm-1%20Y-Axis%20Bar%20Mount%20Idler.png" width="600">
+# Base and Y axis assm-1 Y-Axis Bar Mount
+<img src="https://raw.githubusercontent.com/RootCNC/Root-2-CNC/master/Media/Docs/Print-Info/Root%202%20CNC%20-%20Base%20and%20Y%20axis%20assm-1%20Y-Axis%20Bar%20Mount.png" width="600">
+# Base and Y axis assm-1 Y-Axis Drag Chain
+<img src="https://raw.githubusercontent.com/RootCNC/Root-2-CNC/master/Media/Docs/Print-Info/Root%202%20CNC%20-%20Base%20and%20Y%20axis%20assm-1%20Y-Axis%20Drag%20Chain.png" width="600">
+# Base and Y axis assm-1 Y-Axis Motor Mount
+<img src="https://raw.githubusercontent.com/RootCNC/Root-2-CNC/master/Media/Docs/Print-Info/Root%202%20CNC%20-%20Base%20and%20Y%20axis%20assm-1%20Y-Axis%20Motor%20Mount.png" width="600">
+# Ramps controller-1 Ramps Case Base
+<img src="https://raw.githubusercontent.com/RootCNC/Root-2-CNC/master/Media/Docs/Print-Info/Root%202%20CNC%20-%20Ramps%20controller-1%20Ramps%20Case%20Base.png" width="600">
+# Ramps controller-1 Ramps Case Lid
+<img src="https://raw.githubusercontent.com/RootCNC/Root-2-CNC/master/Media/Docs/Print-Info/Root%202%20CNC%20-%20Ramps%20controller-1%20Ramps%20Case%20Lid.png" width="600">
+# X carriage-1 linear rail 90 bearing mount Y-Axis Carriage
+<img src="https://raw.githubusercontent.com/RootCNC/Root-2-CNC/master/Media/Docs/Print-Info/Root%202%20CNC%20-%20X%20carriage-1%20linear%20rail%2090%20bearing%20mount%20Y-Axis%20Carriage.png" width="600">
+# X carriage-1 X-Axis Carriage Drag Chain Mount Idler
+<img src="https://raw.githubusercontent.com/RootCNC/Root-2-CNC/master/Media/Docs/Print-Info/Root%202%20CNC%20-%20X%20carriage-1%20X-Axis%20Carriage%20Drag%20Chain%20Mount%20Idler.png" width="600">
+# X carriage-1 X-Axis Motor Mount
+<img src="https://raw.githubusercontent.com/RootCNC/Root-2-CNC/master/Media/Docs/Print-Info/Root%202%20CNC%20-%20X%20carriage-1%20X-Axis%20Motor%20Mount.png" width="600">
+# X carriage-1 Z carriage-1 Spindle Lower Clamp
+<img src="https://raw.githubusercontent.com/RootCNC/Root-2-CNC/master/Media/Docs/Print-Info/Root%202%20CNC%20-%20X%20carriage-1%20Z%20carriage-1%20Spindle%20Lower%20Clamp.png" width="600">
+# X carriage-1 Z carriage-1 Spindle Upper Clamp
+<img src="https://raw.githubusercontent.com/RootCNC/Root-2-CNC/master/Media/Docs/Print-Info/Root%202%20CNC%20-%20X%20carriage-1%20Z%20carriage-1%20Spindle%20Upper%20Clamp.png" width="600">
+# X carriage-1 Z-Axis Motor Mount
+<img src="https://raw.githubusercontent.com/RootCNC/Root-2-CNC/master/Media/Docs/Print-Info/Root%202%20CNC%20-%20X%20carriage-1%20Z-Axis%20Motor%20Mount.png" width="600">
+# Y gantry assm-1 Dirt Cover
+<img src="https://raw.githubusercontent.com/RootCNC/Root-2-CNC/master/Media/Docs/Print-Info/Root%202%20CNC%20-%20Y%20gantry%20assm-1%20Dirt%20Cover.png" width="600">
+# Y gantry assm-1 X-Axis Belt Clamp
+<img src="https://raw.githubusercontent.com/RootCNC/Root-2-CNC/master/Media/Docs/Print-Info/Root%202%20CNC%20-%20Y%20gantry%20assm-1%20X-Axis%20Belt%20Clamp.png" width="600">
+# Y gantry assm-1 X-Axis Box Bar Mount
+<img src="https://raw.githubusercontent.com/RootCNC/Root-2-CNC/master/Media/Docs/Print-Info/Root%202%20CNC%20-%20Y%20gantry%20assm-1%20X-Axis%20Box%20Bar%20Mount.png" width="600">
+# Y gantry assm-1 X-Axis Carriage Y Drag Chain Mount
+<img src="https://raw.githubusercontent.com/RootCNC/Root-2-CNC/master/Media/Docs/Print-Info/Root%202%20CNC%20-%20Y%20gantry%20assm-1%20X-Axis%20Carriage%20Y%20Drag%20Chain%20Mount.png" width="600">
+# Y gantry assm-1 Y Drag Chain Carriage
+<img src="https://raw.githubusercontent.com/RootCNC/Root-2-CNC/master/Media/Docs/Print-Info/Root%202%20CNC%20-%20Y%20gantry%20assm-1%20Y%20Drag%20Chain%20Carriage.png" width="600">
+# Y gantry assm-1 Y Motion Bearing Mount
+<img src="https://raw.githubusercontent.com/RootCNC/Root-2-CNC/master/Media/Docs/Print-Info/Root%202%20CNC%20-%20Y%20gantry%20assm-1%20Y%20Motion%20Bearing%20Mount.png" width="600">
+# Y gantry assm-1 Y-Axis Belt Clamp GT2
+<img src="https://raw.githubusercontent.com/RootCNC/Root-2-CNC/master/Media/Docs/Print-Info/Root%202%20CNC%20-%20Y%20gantry%20assm-1%20Y-Axis%20Belt%20Clamp%20GT2.png"  width="600">
