@@ -1,7 +1,6 @@
 <img align="right" width=175 src="https://github.com/RootCNC/Root-2-CNC/blob/master/Media/R_Logo.png" />
 
 # Root 2 
-
 <img align="center" width=600 src="https://raw.githubusercontent.com/RootCNC/Root-2-CNC/master/Media/Docs/Build-Images/ex_20151018_134318.jpg" />
 
 I started this project to enable me to do another project which required sheet wood to be machined, (another 3D printer which I have been wanting to do for a while). without the large cost of out sourcing the tasks to a company. So I created this CNC named Root 2 to open up a endless amount of possibilities.
@@ -11,8 +10,7 @@ Goals
 
 Create a expandable CNC machine capable to machine aluminiumUse minimal different 3D printed partsCustomization (Make it Bigger)CheapSimpleUse parts commonly used in DIY 3D printerEasily sourced parts
 
-#Goals
-
+# Goals
  1. Create a expandable CNC machine 
  2. capable to machine aluminium
  3. Use minimal different 3D printed parts 
@@ -22,17 +20,19 @@ Create a expandable CNC machine capable to machine aluminiumUse minimal differen
  7. Easily sourced parts
  
 # Spec
-
 Working Area = 331x305x120mm (X,Y,Z) - If you want a bigger machine, just buy longer box section!
 
-# BOM
+# Animated Assembly 
+[Here](https://www.youtube.com/watch?v=ruxc2kX1mUY&list=PL5hghy18PulU0-F_gzihovUwgWx6q6PMu&ab_channel=Sailorpete)
 
+# BOM
 Can be found [HERE](https://github.com/RootCNC/Root-2-CNC/blob/master/Docs/BOM.md)
 
 # Videos
 Youtube Videos can be found  [Here](https://www.youtube.com/sailorpete12)
 
 Animated Assembly [Here](https://www.youtube.com/watch?v=ruxc2kX1mUY&list=PL5hghy18PulU0-F_gzihovUwgWx6q6PMu&ab_channel=Sailorpete)
+
 ## Dibond sheet
 [![](http://img.youtube.com/vi/g2_bGaUY4f0/0.jpg)](http://www.youtube.com/watch?v=g2_bGaUY4f0 "")
 ## Hard Oak Sign making
